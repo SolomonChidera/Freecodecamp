@@ -13,6 +13,6 @@ int main(void)
 	void *voidpointer;
 	voidpointer = &alphabet;
 	*voidpointer = 'E';
-	printf("The value of variable alphabet is %c\n", *voidpointer);
+	printf("The value of variable alphabet is %c\n", *(char*)voidpointer);
 	return (0);
 }
