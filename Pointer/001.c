@@ -3,6 +3,6 @@
 int main(void)
 {
 	int digit = 42;
-	printf("The address of digit = %d.", &digit);
+	printf("The address of digit = %p.", &digit);
 	return (0);
 }
