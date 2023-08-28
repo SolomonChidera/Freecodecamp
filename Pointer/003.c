@@ -10,6 +10,6 @@ int main(void)
 	printf("%d\n", *ptr);/*prints 1*/
 	free(ptr);
 	*ptr = 5;
-	printf("%d\n", *ptr);/*may or may not print 5*/
+//	printf("%d\n", *ptr);/*may or may not print 5*/
 	return (0);
 }
