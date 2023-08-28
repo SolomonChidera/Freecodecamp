@@ -9,5 +9,11 @@ int main(void)
 	addressOfDigit = &digit;
 	printf("Value of *addressOfDigit is the address of digit and here it is: %p.\n", addressOfDigit);
 
+
+	int num = 5;
+	int *p = &num;
+	printf("Address using %%p = %p", p);
+	printf("Address using %%d = %d", p);
+	printf("Address using %%o = %o", p);
 	return (0);
 }
