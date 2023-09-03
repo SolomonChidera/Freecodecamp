@@ -22,6 +22,9 @@ int main(void)
 	int a[5];
 	*a = 5;
 	a[1] = 8;
+
+	*(a + 2) = 9;
+	printf("The index three is: %d\n", *(a + 2));
 	printf("The first element is: %d\n", *a);
 
 
