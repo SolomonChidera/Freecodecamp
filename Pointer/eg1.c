@@ -16,5 +16,14 @@ int main(void)
 	printf("The value of num is: %d\n", num);
 	printf("The value of num is: %d\n", *ptr);
 
+	printf("----------------------------------\n");
+	/*-------------Array---------*/
+
+	int a[5] = 5;
+	a[1] = 8;
+	printf("The first element is: %d\n", *a);
+
+
+
 	return (0);
 }
