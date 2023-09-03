@@ -19,7 +19,8 @@ int main(void)
 	printf("----------------------------------\n");
 	/*-------------Array---------*/
 
-	int a[5] = 5;
+	int a[5];
+	*a = 5;
 	a[1] = 8;
 	printf("The first element is: %d\n", *a);
 
