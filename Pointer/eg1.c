@@ -4,7 +4,7 @@ int main(void)
 {
 	int num;
 	num = 6;
-	int *ptr;
+	int *ptr = NULL;
 	printf("The pointer 'ptr' is: %p\n", ptr);
 	printf("The address of num is: %p\n", &num);
 
